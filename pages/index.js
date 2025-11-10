@@ -9,10 +9,10 @@ export default function HomePage() {
   const hearts = useMemo(() => {
     return Array.from({ length: 18 }).map((_, i) => ({
       id: i,
-      left: Math.random() * 100,        // porcentagem da tela
-      delay: Math.random() * 2,         // entre 0s e 2s
-      duration: 4 + Math.random() * 2,  // entre 4s e 6s
-      size: 16 + Math.random() * 20,    // px
+      left: Math.random() * 100, // porcentagem da tela
+      delay: Math.random() * 2, // entre 0s e 2s
+      duration: 4 + Math.random() * 2, // entre 4s e 6s
+      size: 16 + Math.random() * 20, // px
       rotate: -20 + Math.random() * 40, // leve inclinação
     }));
   }, []);
@@ -29,10 +29,7 @@ export default function HomePage() {
             Eu sou quem eu sou por causa do teu carinho. 💖
           </p>
 
-          <button
-            className="loveButton"
-            onClick={() => setShowLove(true)}
-          >
+          <button className="loveButton" onClick={() => setShowLove(true)}>
             Receber amor 💌
           </button>
         </section>
@@ -57,9 +54,7 @@ export default function HomePage() {
           </div>
         )}
 
-        <footer className="footer">
-          Com amor, teu filho 🫶
-        </footer>
+        <footer className="footer">Com amor, teu filho 🫶</footer>
       </main>
 
       {/* estilos escopados ao componente */}
