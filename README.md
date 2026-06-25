@@ -1,2 +1,3 @@
 # clone-tabnews
-Um projeto para treinar, minhas habilidades Programisticas 
+
+Um projeto para treinar, minhas habilidades Programisticas
